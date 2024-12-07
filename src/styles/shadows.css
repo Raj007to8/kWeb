@@ -1,0 +1,33 @@
+@layer utilities {
+  .shadow-feature {
+    box-shadow: 0px 4px 10px rgba(50, 72, 218, 0.1);
+  }
+  
+  .shadow-feature-dark {
+    box-shadow: 0px 4px 10px rgba(50, 72, 218, 0.05);
+  }
+  
+  .shadow-feature-hover {
+    box-shadow: 0px 8px 20px rgba(50, 72, 218, 0.2);
+  }
+  
+  .shadow-feature-hover-dark {
+    box-shadow: 0px 8px 20px rgba(50, 72, 218, 0.1);
+  }
+
+  .shadow-icon {
+    box-shadow: 0px 4px 8px rgba(50, 72, 218, 0.15),
+                0px 1px 3px rgba(50, 72, 218, 0.1);
+  }
+
+  .shadow-icon-dark {
+    box-shadow: 0px 4px 8px rgba(50, 72, 218, 0.1),
+                0px 1px 3px rgba(50, 72, 218, 0.05);
+  }
+}
+
+@layer components {
+  .drop-shadow-icon {
+    filter: drop-shadow(0px 2px 4px rgba(50, 72, 218, 0.2));
+  }
+}
